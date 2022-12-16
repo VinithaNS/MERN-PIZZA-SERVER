@@ -13,7 +13,7 @@ const app = express();
 dotenv.config();
 app.use(
   cors({
-    origin: "https://mern-pizza-client.vercel.app",
+    origin: "*",
     credentials: true,
   })
 );
